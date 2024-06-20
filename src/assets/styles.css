@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('C:\Users\medep\OneDrive\Desktop\steptoweb\first_project\src\assets\img1.jpg');
+
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    height: 100vh;
+    margin: 100;
+  }
+  
+  .auth-container {
+    background: rgb(237, 231, 233);
+    padding: 0.5cm;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 0.5rem;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 0.5rem;
+    text-align: left;
+  }
+
+  input {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 5px solid #e8e2e2;
+    border-radius: 20px;
+  }
+  
+  button {
+    padding: 0.5rem;
+    background-color: #dce7e0;
+    border: 500px;
+    border-radius: 40px;
+    color: rgb(12, 7, 20);
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2cad55;
+  }
+  
